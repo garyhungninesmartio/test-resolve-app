@@ -25,7 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import NameCard from '@components/NameCard';
+import NameCard from '@/components/NameCard';
 
 type SectionProps = PropsWithChildren<{
   title: string;
