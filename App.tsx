@@ -25,6 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+/** WARNING!! Babel can't handle "~" tilde symbol as alias so we can only use @ for now */
 import NameCard from '@/components/NameCard';
 
 type SectionProps = PropsWithChildren<{
